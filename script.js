@@ -1,5 +1,7 @@
+//Selecioine seu personagem:
+let char = new Knight("Nickname")
 
-let char = new Sorcerer("João")
+//selecione o monstro:
 let monster = new BigMonster()
 
 const stage = new Stage(
