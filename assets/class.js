@@ -27,8 +27,8 @@ class Knight extends Character {
         super(name);
         this.maxLife = 100;
         this.life = this.maxLife;
-        this.attack = 200;
-        this.defense = 2;
+        this.attack = 10;
+        this.defense = 8;
     }
 }
 
@@ -38,8 +38,8 @@ class Sorcerer extends Character {
         super(name);
         this.maxLife = 80;
         this.life = this.maxLife;
-        this.attack = 200;
-        this.defense = 2;
+        this.attack = 15;
+        this.defense = 6;
     }
 }
 
@@ -48,8 +48,8 @@ class BigMonster extends Character {
         super("Big Monster");
         this.maxLife = 140;
         this.life = this.maxLife;
-        this.attack = 200;
-        this.defense = 2;
+        this.attack = 18;
+        this.defense = 10;
     }
 }
 
@@ -57,10 +57,10 @@ class LittleMonster extends Character {
 
     constructor() {
         super("Litte Monster");
-        this.maxLife = 90;
+        this.maxLife = 80;
         this.life = this.maxLife;
-        this.attack = 200;
-        this.defense = 2;
+        this.attack = 10;
+        this.defense = 6;
     }
 }
 
